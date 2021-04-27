@@ -9,10 +9,10 @@
     <Grid>
         <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
             <TextBox x:Name="txtName" />
-            <Button x:Name="btnMainThreadDeadlock" Margin="0,5,0,0" Click="btnMainThreadDeadlock_Click">Deadlock using IO</Button>
-            <Button x:Name="btnMainThreadDeadlockCPU" Margin="0,5,0,0" Click="btnMainThreadDeadlockCPU_Click">Deadlock with CPU bound code</Button>
-            <Button x:Name="btnMainThreadDeadlockCPUDelay" Margin="0,5,0,0" Click="btnMainThreadDeadlockCPUDelay_Click">Deadlock with CPU bound code even with just Task.Delay()</Button>
-            <Button x:Name="btnMainThreadNoDeadlock" Margin="0,5,0,0" Click="btnMainThreadNoDeadlock_Click">No deadlock</Button>
+            <Button x:Name="btnMainThreadDeadlock" Margin="0,5,0,0" Click="btnMainThreadDeadlock_Click">Deadlock using IO (ln 66)</Button>
+            <Button x:Name="btnMainThreadDeadlockCPU" Margin="0,5,0,0" Click="btnMainThreadDeadlockCPU_Click">Deadlock with CPU bound code (ln 80)</Button>
+            <Button x:Name="btnMainThreadDeadlockCPUDelay" Margin="0,5,0,0" Click="btnMainThreadDeadlockCPUDelay_Click">Deadlock with CPU bound code even with just Task.Delay() (ln 96)</Button>
+            <Button x:Name="btnMainThreadNoDeadlock" Margin="0,5,0,0" Click="btnMainThreadNoDeadlock_Click">No deadlock (ln 112)</Button>
         </StackPanel>
     </Grid>
 </Window>
